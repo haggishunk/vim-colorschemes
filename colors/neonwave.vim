@@ -54,8 +54,8 @@ hi Define            ctermfg=61    ctermbg=NONE  gui=NONE       cterm=NONE      
 hi DefinedName       ctermfg=200   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00d7  guibg=NONE
 hi Delimiter         ctermfg=207   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff5fff  guibg=NONE
 hi Directory         ctermfg=45    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d7ff  guibg=NONE
-hi Error             ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#ff0000  guibg=#080808
-hi ErrorMsg          ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#ff0000  guibg=#080808
+hi Error             ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#080808  guibg=#ff00d7
+hi ErrorMsg          ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#080808  guibg=#ff00d7
 hi Exception         ctermfg=201   ctermbg=NONE  gui=bold       cterm=bold      guifg=#ff00ff  guibg=NONE
 hi Float             ctermfg=37    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afaf  guibg=NONE
 hi FoldColumn        ctermfg=33    ctermbg=233   gui=NONE       cterm=NONE      guifg=#0087ff  guibg=#121212
@@ -71,7 +71,7 @@ hi LineNr            ctermfg=36    ctermbg=233   gui=NONE       cterm=NONE      
 hi Macro             ctermfg=69    ctermbg=NONE  gui=bold       cterm=bold      guifg=#5f87ff  guibg=NONE
 hi MatchParen        ctermfg=50    ctermbg=39    gui=NONE       cterm=NONE      guifg=#00ffd7  guibg=#00afff
 hi ModeMsg           ctermfg=39    ctermbg=232   gui=bold       cterm=bold      guifg=#00afff  guibg=#080808
-hi MoreMsg           ctermfg=46    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00ff00  guibg=NONE
+hi MoreMsg           ctermfg=40    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d700  guibg=NONE
 hi NonText           ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi Normal            ctermfg=105   ctermbg=234   gui=NONE       cterm=NONE      guifg=#8787ff  guibg=#1c1c1c
 hi Number            ctermfg=31    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#0087af  guibg=NONE
@@ -80,7 +80,7 @@ hi Operator          ctermfg=39    ctermbg=NONE  gui=NONE       cterm=NONE      
                                                                
 " For matching over X length of chars; non-essential.
 " That is, if you have a match property in your vimrc.
-hi OverLength        ctermfg=46    ctermbg=234   gui=bold       cterm=bold      guifg=#00ff00  guibg=#1c1c1c
+hi OverLength        ctermfg=40    ctermbg=234   gui=bold       cterm=bold      guifg=#00d700  guibg=#1c1c1c
 hi perlIdentifier    ctermfg=39    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afff  guibg=NONE
 hi perlNumber        ctermfg=30    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#008787  guibg=NONE
 hi perlOperator      ctermfg=45    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00d7ff  guibg=NONE
@@ -91,10 +91,10 @@ hi PMenuThumb        ctermfg=NONE  ctermbg=237   gui=NONE       cterm=NONE      
 hi PreCondit         ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi PreProc           ctermfg=63    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#5f5fff  guibg=NONE
 hi pythonFunction    ctermfg=38    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afd7  guibg=NONE
-hi pythonException   ctermfg=196   ctermbg=232   gui=NONE       cterm=NONE      guifg=#ff0000  guibg=#080808
+hi pythonException   ctermfg=40    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d700  guibg=NONE   
 hi pythonEscape      ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi pythonStatement   ctermfg=45    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d7ff  guibg=NONE
-hi Question          ctermfg=46    ctermbg=232   gui=bold       cterm=bold      guifg=#00ff00  guibg=#080808
+hi Question          ctermfg=40    ctermbg=232   gui=bold       cterm=bold      guifg=#00d700  guibg=#080808
 hi Repeat            ctermfg=201   ctermbg=NONE  gui=bold       cterm=bold      guifg=#ff00ff  guibg=NONE
 hi Search            ctermfg=232   ctermbg=33    gui=NONE       cterm=NONE      guifg=#080808  guibg=#0087ff
 hi shDeref           ctermfg=69    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#5f87ff  guibg=NONE
@@ -107,12 +107,12 @@ hi shShellVariables  ctermfg=207   ctermbg=NONE  gui=NONE       cterm=NONE      
 hi shSnglCase        ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi shTestOpr         ctermfg=39    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afff  guibg=NONE
 hi shVariable        ctermfg=45    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d7ff  guibg=NONE
-hi SignColumn        ctermfg=46    ctermbg=234   gui=NONE       cterm=NONE      guifg=#00ff00  guibg=#1c1c1c
+hi SignColumn        ctermfg=40    ctermbg=234   gui=NONE       cterm=NONE      guifg=#00d700  guibg=#1c1c1c
 hi Special           ctermfg=13    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi SpecialChar       ctermfg=165   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#d700ff  guibg=NONE
 hi SpecialComment    ctermfg=231   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ffffff  guibg=NONE
 hi SpecialKey        ctermfg=105   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#8787ff  guibg=NONE
-hi SpellBad          ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#ff0000  guibg=#080808
+hi SpellBad          ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#080808  guibg=#ff00d7
 hi StatusLine        ctermfg=32    ctermbg=232   gui=bold       cterm=bold      guifg=#0087d7  guibg=#080808
 hi StatusLineNC      ctermfg=105   ctermbg=236   gui=bold       cterm=bold      guifg=#8787ff  guibg=#303030
 hi Statement         ctermfg=201   ctermbg=NONE  gui=bold       cterm=bold      guifg=#ff00ff  guibg=NONE
