@@ -29,7 +29,7 @@ if v:version >= 700
 		" Meaning, Vim is set as your default editor. Or through a keyboard
 		" shortcut like ./x-terminal-emulator --command=vim
 		" (Oh, the irony.)
-		
+
 		" If you do not need it then do with it as you wish.
 		set t_Co=256
 		syntax reset
@@ -76,8 +76,8 @@ hi NonText           ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      
 hi Normal            ctermfg=105   ctermbg=234   gui=NONE       cterm=NONE      guifg=#8787ff  guibg=#1c1c1c
 hi Number            ctermfg=31    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#0087af  guibg=NONE
 hi Operator          ctermfg=39    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afff  guibg=NONE
-                                                               
-                                                               
+
+
 " For matching over X length of chars; non-essential.
 " That is, if you have a match property in your vimrc.
 hi OverLength        ctermfg=40    ctermbg=234   gui=bold       cterm=bold      guifg=#00d700  guibg=#1c1c1c
@@ -91,7 +91,7 @@ hi PMenuThumb        ctermfg=NONE  ctermbg=237   gui=NONE       cterm=NONE      
 hi PreCondit         ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi PreProc           ctermfg=63    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#5f5fff  guibg=NONE
 hi pythonFunction    ctermfg=38    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afd7  guibg=NONE
-hi pythonException   ctermfg=40    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d700  guibg=NONE   
+hi pythonException   ctermfg=40    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d700  guibg=NONE
 hi pythonEscape      ctermfg=201   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
 hi pythonStatement   ctermfg=45    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d7ff  guibg=NONE
 hi Question          ctermfg=40    ctermbg=232   gui=bold       cterm=bold      guifg=#00d700  guibg=#080808
@@ -113,7 +113,8 @@ hi SpecialChar       ctermfg=165   ctermbg=NONE  gui=NONE       cterm=NONE      
 hi SpecialComment    ctermfg=231   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ffffff  guibg=NONE
 hi SpecialKey        ctermfg=105   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#8787ff  guibg=NONE
 hi SpellBad          ctermfg=196   ctermbg=232   gui=bold       cterm=bold      guifg=#080808  guibg=#ff00d7
-hi StatusLine        ctermfg=32    ctermbg=232   gui=bold       cterm=bold      guifg=#0087d7  guibg=#080808
+hi SpellCap          ctermfg=232   ctermbg=45   gui=bold       cterm=bold      guifg=#080808  guibg=#00d7ff
+hi StatusLine        ctermfg=232    ctermbg=32   gui=bold       cterm=bold      guifg=#0087d7  guibg=#080808
 hi StatusLineNC      ctermfg=105   ctermbg=236   gui=bold       cterm=bold      guifg=#8787ff  guibg=#303030
 hi Statement         ctermfg=201   ctermbg=NONE  gui=bold       cterm=bold      guifg=#ff00ff  guibg=NONE
 hi StorageClass      ctermfg=45    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00d7ff  guibg=NONE
